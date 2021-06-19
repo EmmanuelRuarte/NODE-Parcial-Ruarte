@@ -1,8 +1,10 @@
 "# NODE-Parcial-Ruarte" 
 1-  
 sequelize model:generate --name Brand --attributes name:string 
+
 2
 sequelize model:generate --name Category --attributes name:string
+
 3-
 sequelize model:generate --name Address --attributes street:string,number:integer,state_id:integer
 4-
